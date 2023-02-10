@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Rufina:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+h1, h2, h3{
+    font-family: 'Rufina', sans-serif;
+}
+body{
+    width: 100%;
+    background-color: rgb(15, 14, 14);
+    color: white;
+}
+.page{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+/*HEADER*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+nav .nav-brand{
+    font-size: 12px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.home{
+    margin: 20px;
+    margin-top: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.home h1{
+    margin: 10px 0;
+    font-size: 50px;
+    font-weight: lighter;
+}
+.home .text {
+    width: 600px;
+}
+.home .clients{
+    padding-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+    height: 100%;
+}
+.home .clients img{
+    width: 75px;
+}
+
+/*Portifolio */
+.portifolio{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portifolio .portifolio-card{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    width: 100%;
+    margin:  30px;
+}
+.portifolio-card img{
+    width: 100%;
+}
+.portifolio-card h3{
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+/* About me */
+.about-me{
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    align-items: center;
+    justify-content: center;
+}
+.text-content{
+    margin: 30px;
+}
+.text-content{
+    height: 250px;
+}
+.text-content p{
+    margin: 20px 0;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.work-with-me{
+    display: flex;
+}
+.work-with-me .text-content{
+    width: 44%;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    padding: 20px 0;
+}
+footer div, footer h3{
+    font-weight: 400;
+    margin: 0 30px;
+    font-size: 13px;
+}
+footer div {
+    display: flex;
+    gap: 14px;
+}
+footer div img{
+    width: 22px;
+}
+
+/*Special items*/
+.main-button{
+    padding: 15px 25px;
+    font-size: 15px;
+    font-family: 'Rufina', sans-serif;
+    font-weight: 400;
+    background-color: rgb(216, 205, 56);
+    cursor: pointer;
+    transition: all 0.5s;
+    color: black;
+}
+.main-button:hover{
+    transform: scale(1.1);
+}
